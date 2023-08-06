@@ -24,7 +24,7 @@ Deliverables:
 	2. A script or command that performs the backup using the "rsync" command. Any necessary additional configuration files or instructions needed to complete the task.
 	3. A brief explanation of the implemented solution and any assumptions made
 comment
-set -x
+
 # Define the source and destination directories for backup
 source_dir="/root/Embedded-Linux-Foundation_Valeo.Sprints_Tasks/my_dir_test"
 backup_dir="/root/Embedded-Linux-Foundation_Valeo.Sprints_Tasks/0x00-shell-scripts/backup"
