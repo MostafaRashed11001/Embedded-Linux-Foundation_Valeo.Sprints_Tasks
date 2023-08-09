@@ -8,7 +8,7 @@ if [[ -z "$wifi_info" ]]; then
     echo "Can't recommend any WIFI network"
 else
     # Remove any hidden networks and sort by signal strength
-    recommended_network=$(echo "$wifi_info" | grep -v "^$" | sort -k2 -nr | head -n 1 |  awk '{print $1}' )
+    recommended_network=$(echo "$wifi_info" | sed '1d'  | grep -v "^$" | sort -k2 -nr | head -n 1 |  awk '{print $1}' )
     if [[ -z "$recommended_network" ]]; then
         echo "Can't recommend any WIFI network"
     else
