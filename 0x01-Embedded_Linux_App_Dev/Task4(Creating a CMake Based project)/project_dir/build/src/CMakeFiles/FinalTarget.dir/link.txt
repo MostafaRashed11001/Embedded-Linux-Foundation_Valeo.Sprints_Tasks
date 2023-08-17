@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FinalTarget.dir/main.cpp.o CMakeFiles/FinalTarget.dir/Print.cpp.o -o FinalTarget  ../library/libWriteInFile_lib.a 
