@@ -24,12 +24,12 @@ To compile and run the C++ program in this repository, you need to have the foll
 
 1. Clone the repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/MostafaRashed11001/Embedded-Linux-Foundation_Valeo.Sprints_Tasks.gitt
    ```
 
 2. Navigate to the repository's directory:
    ```
-   cd your-repository
+   cd 0x01-Embedded_Linux_App_Dev/Task3(Creating a make file to build a project)
    ```
 
 3. Compile and build the program using the Makefile by running the following command:

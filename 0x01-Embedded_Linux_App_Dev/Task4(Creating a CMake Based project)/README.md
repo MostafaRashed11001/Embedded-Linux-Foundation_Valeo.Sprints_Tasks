@@ -32,12 +32,12 @@ To build and run the project, you need the following installed:
 
 1. Clone the repository to your local machine:
    ```sh
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/MostafaRashed11001/Embedded-Linux-Foundation_Valeo.Sprints_Tasks.git
    ```
 
 2. Navigate to the repository's directory:
    ```sh
-   cd project_dir
+   cd 0x01-Embedded_Linux_App_Dev/Task4(Creating a CMake Based project)/project_dir
    ```
 
 3. Run the executable:
