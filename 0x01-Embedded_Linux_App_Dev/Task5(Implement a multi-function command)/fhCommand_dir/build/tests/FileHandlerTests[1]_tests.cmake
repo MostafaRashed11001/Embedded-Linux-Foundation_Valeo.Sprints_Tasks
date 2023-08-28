@@ -1,0 +1,5 @@
+add_test( FileHandlerTest.ListDirectory /home/mostafa_rashed/fhCommand_dir/build/tests/FileHandlerTests [==[--gtest_filter=FileHandlerTest.ListDirectory]==] --gtest_also_run_disabled_tests)
+set_tests_properties( FileHandlerTest.ListDirectory PROPERTIES WORKING_DIRECTORY /home/mostafa_rashed/fhCommand_dir/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( FileHandlerTest.ReadFileContent /home/mostafa_rashed/fhCommand_dir/build/tests/FileHandlerTests [==[--gtest_filter=FileHandlerTest.ReadFileContent]==] --gtest_also_run_disabled_tests)
+set_tests_properties( FileHandlerTest.ReadFileContent PROPERTIES WORKING_DIRECTORY /home/mostafa_rashed/fhCommand_dir/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( FileHandlerTests_TESTS FileHandlerTest.ListDirectory FileHandlerTest.ReadFileContent)

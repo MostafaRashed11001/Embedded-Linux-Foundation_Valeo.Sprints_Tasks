@@ -1,0 +1,2 @@
+-l ../Result/GTest_Dir_Run/
+-r ../Result/GTest_Dir_Run/READ_FILE

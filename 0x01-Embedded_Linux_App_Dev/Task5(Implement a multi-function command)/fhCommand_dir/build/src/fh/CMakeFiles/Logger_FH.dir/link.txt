@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLogger_FH.a CMakeFiles/Logger_FH.dir/__/__/logger/logger.cpp.o
+/usr/bin/ranlib libLogger_FH.a

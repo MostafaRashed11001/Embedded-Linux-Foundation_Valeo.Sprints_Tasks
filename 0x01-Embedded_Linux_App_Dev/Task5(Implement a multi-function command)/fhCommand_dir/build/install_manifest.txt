@@ -1,0 +1,4 @@
+/home/mostafa_rashed/fhCommand_dir/build/bin/FileHandlerApp
+/home/mostafa_rashed/fhCommand_dir/build/bin/RequesterApp
+/home/mostafa_rashed/fhCommand_dir/build/bin/FileHandlerTests
+/home/mostafa_rashed/fhCommand_dir/build/bin/RequesterTests

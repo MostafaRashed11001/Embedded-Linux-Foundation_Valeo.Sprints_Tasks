@@ -1,0 +1,5 @@
+if(EXISTS "/home/mostafa_rashed/fhCommand_dir/build/tests/FileHandlerTests[1]_tests.cmake")
+  include("/home/mostafa_rashed/fhCommand_dir/build/tests/FileHandlerTests[1]_tests.cmake")
+else()
+  add_test(FileHandlerTests_NOT_BUILT FileHandlerTests_NOT_BUILT)
+endif()
