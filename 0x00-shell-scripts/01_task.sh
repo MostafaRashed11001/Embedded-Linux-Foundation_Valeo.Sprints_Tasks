@@ -18,12 +18,6 @@ Deliverables:
 comment
 
 
-# Assign the first argument to the variable 'source_file'
-source_file="$1"
-# Assign the second argument to the variable 'destination_path'
-destination_path="$2"
-
-
 <<test_code
 test -f ${source_file} && test -d ${destination_path} && cp ${source_file} ${destination_path} 
 chmod 740 ${destination_path}/${source_file##*/} || echo "Your destination path uncorrect"  || echo "Your file path uncorrect"
@@ -33,21 +27,24 @@ test_code
 # Check if the script is called with exactly 2 arguments
 if [ $# -eq 2 ]
 then
+	# Assign the first argument to the variable 'source_file'
+	source_file="$1"
+	# Assign the second argument to the variable 'destination_path'
+	destination_path="$2"
 	# Check if the source file exists
 	if [ -f ${source_file} ]
 	then
 		# Check if the destination path is a directory
-		if [ -d ${destination_path} ]
+		if [ ! -d ${destination_path} ]
 		then
+			# Create the destination directory if it doesn't exist
+			mkdir -p ${destination_path}
+		fi
 			# Copy the source file to the destination path
 			cp ${source_file} ${destination_path}
 
 			# Change the permissions of the copied file to 740 (owner can read, write, and execute; group can read only; others have no permissions)
 			chmod 740 ${destination_path}/${source_file##*/}
-		else
-			# If the destination path is not a directory, display an error message
-			echo "Your destination path uncorrect"
-		fi
 	else
 		# If the source file does not exist, display an error message
 		echo "Your file path uncorrect"
