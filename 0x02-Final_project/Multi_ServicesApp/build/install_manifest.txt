@@ -1,0 +1,2 @@
+/home/mostafa_rashed/Multi_ServicesApp/build/bin/Main_Service
+/home/mostafa_rashed/Multi_ServicesApp/build/bin/Math_App

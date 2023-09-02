@@ -1,0 +1,14 @@
+{
+  "App_1": {
+    "Name_Q": "/my_queue"
+  },
+  "App_2": {
+    "Name_Q": "/My_queue"
+  },
+  "App_3": {
+    "Name_Q": "/my_queue"
+  },
+  "App_4": {
+    "Name_Q": "/my_queue"
+  }
+}

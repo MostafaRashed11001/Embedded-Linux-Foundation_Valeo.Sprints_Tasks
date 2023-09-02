@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.cpp
+string.h
+-
+../Utils/Utils.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+Socket_Server.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.h
+errno.h
+-
+iostream
+-
+sys/types.h
+-
+unistd.h
+-
+sys/socket.h
+-
+netdb.h
+-
+arpa/inet.h
+-
+sys/epoll.h
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.h
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+string
+-
+

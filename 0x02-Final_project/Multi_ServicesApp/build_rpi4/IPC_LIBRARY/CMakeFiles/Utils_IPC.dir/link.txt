@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUtils_IPC.a CMakeFiles/Utils_IPC.dir/__/Utils/Utils.cpp.o
+/usr/bin/ranlib libUtils_IPC.a

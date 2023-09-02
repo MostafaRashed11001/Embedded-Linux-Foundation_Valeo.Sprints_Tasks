@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Daemon/daemon.h
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/IPC_LIBRARY/IPC_Library.h
+string
+-
+stdexcept
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Main_Service/Logger_Daemon.cpp
+../IPC_LIBRARY/IPC_Library.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/IPC_LIBRARY/IPC_Library.h
+../Daemon/daemon.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Daemon/daemon.h
+../Socket/Socket_Server.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.h
+../Utils/Utils.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+iostream
+-
+fstream
+-
+string.h
+-
+nlohmann/json.hpp
+-
+string
+-
+errno.h
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.h
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+string
+-
+

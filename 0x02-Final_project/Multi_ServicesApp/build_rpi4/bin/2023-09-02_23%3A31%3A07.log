@@ -1,0 +1,6 @@
+0000001 | 2023-09-02, 23:31:07.812368 [info] -   [IPC_LIB]       Sent message: App_1
+0000002 | 2023-09-02, 23:31:07.813199 [error] -   [SocketServer]  Error in SendSocketMassage
+0000003 | 2023-09-02, 23:31:07.813307 [info] -   [IPC_LIB]       Sent message: /my_queue
+0000004 | 2023-09-02, 23:31:07.813394 [error] -   [SocketServer]  Error in SendSocketMassage
+0000005 | 2023-09-02, 23:31:07.813542 [info] -   [IPC_LIB]       Sent message: Result of 3.000000 + 4.000000 = 7.000000
+0000006 | 2023-09-02, 23:31:07.813630 [error] -   [SocketServer]  Error in SendSocketMassage

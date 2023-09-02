@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Boost_Logger/Logger.h
+boost/log/trivial.hpp
+-
+boost/log/sources/global_logger_storage.hpp
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.h
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.cpp
+Utils.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+../Socket/Socket_Server.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Socket/Socket_Server.h
+../Boost_Logger/Logger.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Boost_Logger/Logger.h
+string
+-
+iostream
+-
+boost/log/core.hpp
+-
+boost/log/trivial.hpp
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+string
+-
+

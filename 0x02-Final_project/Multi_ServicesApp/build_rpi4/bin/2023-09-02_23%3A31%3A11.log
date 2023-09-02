@@ -1,0 +1,6 @@
+0000001 | 2023-09-02, 23:31:11.316470 [info] -   [IPC_LIB]       Sent message: App_1
+0000002 | 2023-09-02, 23:31:11.317215 [error] -   [SocketServer]  Error in SendSocketMassage
+0000003 | 2023-09-02, 23:31:11.317326 [info] -   [IPC_LIB]       Sent message: /my_queue
+0000004 | 2023-09-02, 23:31:11.317412 [error] -   [SocketServer]  Error in SendSocketMassage
+0000005 | 2023-09-02, 23:31:11.325043 [info] -   [IPC_LIB]       Sent message:   [MathApp]       Invalid input: Incorrect number of arguments.
+0000006 | 2023-09-02, 23:31:11.325167 [error] -   [SocketServer]  Error in SendSocketMassage

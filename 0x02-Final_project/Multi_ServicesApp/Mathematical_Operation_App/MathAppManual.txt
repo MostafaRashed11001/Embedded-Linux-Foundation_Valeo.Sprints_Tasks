@@ -1,0 +1,26 @@
+Mathematical Operation Application
+
+Usage:
+    math_app [OPERATION] [NUM1] [NUM2]
+    math_app --help
+
+Perform a mathematical operation.
+
+Operations:
+  Sum   : Add NUM1 and NUM2
+          Example: math_app Sum 5 3    // Output: Result of 5 + 3 = 8
+
+  Sub   : Subtract NUM2 from NUM1
+          Example: math_app Sub 10 4   // Output: Result of 10 - 4 = 6
+
+  Mul   : Multiply NUM1 and NUM2
+          Example: math_app Mul 6 7    // Output: Result of 6 * 7 = 42
+
+  Div   : Divide NUM1 by NUM2
+          Example: math_app Div 20 5   // Output: Result of 20 / 5 = 4
+
+ --help : Display this help message
+
+Note:
+- OPERATION can be one of: Sum, Sub, Mul, Div
+- NUM1 and NUM2 are numeric values

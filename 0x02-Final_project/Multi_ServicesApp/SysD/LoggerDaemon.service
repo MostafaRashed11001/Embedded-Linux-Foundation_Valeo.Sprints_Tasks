@@ -1,0 +1,14 @@
+[Unit]
+Description="Logger daemon system service"
+After=network.target
+
+[Service]
+Type=simple
+Restart=on-failure
+EnvironmentFile=/etc/systemd/Logger_config.json
+ExecStart=/usr/local/bin/Logger_Daemon
+
+
+
+[Install]
+WantedBy=multi-user.target

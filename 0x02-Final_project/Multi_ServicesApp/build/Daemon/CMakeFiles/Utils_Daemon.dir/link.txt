@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUtils_Daemon.a CMakeFiles/Utils_Daemon.dir/__/Utils/Utils.cpp.o
+/usr/bin/ranlib libUtils_Daemon.a

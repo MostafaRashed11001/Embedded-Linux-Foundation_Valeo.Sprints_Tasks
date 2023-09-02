@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Daemon/daemon.cpp
+sys/stat.h
+-
+fcntl.h
+-
+daemon.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Daemon/daemon.h
+../Utils/Utils.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+sys/types.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+iostream
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Daemon/daemon.h
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+string
+-
+

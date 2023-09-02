@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIPC_Main.a CMakeFiles/IPC_Main.dir/__/IPC_LIBRARY/IPC_Library.cpp.o
+/usr/bin/ranlib libIPC_Main.a

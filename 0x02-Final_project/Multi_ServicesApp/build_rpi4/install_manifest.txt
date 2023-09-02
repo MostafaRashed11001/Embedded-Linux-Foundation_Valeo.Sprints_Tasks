@@ -1,0 +1,2 @@
+/home/mostafa_rashed-pi/Multi_ServicesApp/build_rpi4/bin/Main_Service
+/home/mostafa_rashed-pi/Multi_ServicesApp/build_rpi4/bin/Math_App

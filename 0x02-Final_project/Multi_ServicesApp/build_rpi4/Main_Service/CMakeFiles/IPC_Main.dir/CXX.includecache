@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/IPC_LIBRARY/IPC_Library.cpp
+IPC_Library.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/IPC_LIBRARY/IPC_Library.h
+../Utils/Utils.h
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+iostream
+-
+string.h
+-
+sys/ipc.h
+-
+sys/msg.h
+-
+errno.h
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/IPC_LIBRARY/IPC_Library.h
+string
+-
+stdexcept
+-
+
+/home/mostafa_rashed-pi/Multi_ServicesApp/Utils/Utils.h
+string
+-
+
